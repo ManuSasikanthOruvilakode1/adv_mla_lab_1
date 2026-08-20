@@ -16,9 +16,11 @@ classifiers = [
     
 ]
 dependencies = [
+    "ipykernel>=7.3.0",
     "jupyterlab==4.6.1",
     "loguru",
     "mkdocs",
+    "numpy>=2.5.2",
     "pandas==2.2.2",
     "pip",
     "python-dotenv",

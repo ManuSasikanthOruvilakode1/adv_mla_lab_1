@@ -7,9 +7,11 @@ name = "adv-mla-lab-1"
 version = "0.0.1"
 source = { editable = "." }
 dependencies = [
+    { name = "ipykernel" },
     { name = "jupyterlab" },
     { name = "loguru" },
     { name = "mkdocs" },
+    { name = "numpy" },
     { name = "pandas" },
     { name = "pip" },
     { name = "python-dotenv" },
@@ -21,9 +23,11 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "ipykernel", specifier = ">=7.3.0" },
     { name = "jupyterlab", specifier = "==4.6.1" },
     { name = "loguru" },
     { name = "mkdocs" },
+    { name = "numpy", specifier = ">=2.5.2" },
     { name = "pandas", specifier = "==2.2.2" },
     { name = "pip" },
     { name = "python-dotenv" },
